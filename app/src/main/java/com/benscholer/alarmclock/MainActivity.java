@@ -11,17 +11,10 @@ import android.widget.Toast;
 
 
 public class MainActivity extends Activity {
-	ImageButton runCommand;
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		runCommand = (ImageButton)findViewById(R.id.runCommand);
-		runCommand.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View v) {
-
-			}
-		});
 	}
 }

@@ -5,5 +5,7 @@
     <string name="title_activity_main">Alarm Clock</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="predicted_alarm_time_text">Predicted Alarm Time</string>
+    <string name="default_time">00:00</string>
 
 </resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Location">
+        <EditTextPreference
+            android:key="@string/work_location_key"
+            android:summary="@string/work_location_summary"
+            android:title="@string/work_location_title"/>
+    </PreferenceCategory>
+</PreferenceScreen>
